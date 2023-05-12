@@ -13,7 +13,7 @@
 //funtion to hold if/else statements and pass argument through dynamicly
 function isTruthy (arg1){
     //detection for true statment
-    if (arg1 === true){
+    if (arg1){
         console.log(true)
     } 
     //corresponding else/if statements for the different "falsey" values
